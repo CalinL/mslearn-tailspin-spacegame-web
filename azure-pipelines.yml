@@ -7,7 +7,7 @@ trigger:
 - '*'
 
 pool:
-  name: Default
+  name: 'Self-hosted Agent Pool'
   demands:
   - npm
 
