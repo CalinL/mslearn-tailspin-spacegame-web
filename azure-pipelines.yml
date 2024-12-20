@@ -8,8 +8,8 @@ variables:
   dotnetSdkVersion: '5.x'
 
 schedules:
-- cron: '0 3 * * *'
-  displayName: 'Deploy every day at 3 A.M.'
+- cron: '0 4 * * *'
+  displayName: 'Deploy every day at 4 A.M.'
   branches:
     include:
     - main
